@@ -1,0 +1,31 @@
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+    padding: 2rem 1rem;
+    background-color: #fff;
+
+    .card {
+        background-color: #fff;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+        width: 28%;
+        text-align: center;
+
+        h3 {
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            color: #1d2d44;
+            text-align: left; /* Align text to the left */
+        }
+
+        p {
+            color: #666;
+            font-size: 1rem;
+            text-align: left; /* Align text to the left */
+            padding-left: 20px;
+        }
+        
+    }
+}
